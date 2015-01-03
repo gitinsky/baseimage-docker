@@ -1,5 +1,5 @@
-NAME = phusion/baseimage
-VERSION = 0.9.15
+NAME = gitinsky/baseimage
+VERSION = 0.1.0
 
 .PHONY: all build test tag_latest release ssh
 
