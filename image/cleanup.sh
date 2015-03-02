@@ -4,7 +4,7 @@ source /build/buildconfig
 set -x
 
 apt-get -y remove g++ g++-4.8 gcc gcc-4.8 libtool
-apt-get autoremove
+apt-get -y autoremove
 apt-get clean
 rm -rf /build
 rm -rf /tmp/* /var/tmp/*
