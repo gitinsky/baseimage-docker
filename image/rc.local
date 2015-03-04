@@ -11,6 +11,6 @@
 #
 # By default this script does nothing.
 
-bash -c "source /etc/profile.d/rvm.sh && eye l /etc/eye/apps.eye"
+bash -c "source /etc/profile.d/rvm.sh && eye l /etc/eye/apps.eye" &
 
 exit 0
