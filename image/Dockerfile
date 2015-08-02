@@ -2,6 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Git In Sky <support@gitinsky.com>
 
 ENV HOME /root
+ENV TERM xterm
 ADD . /build
 
 RUN /build/prepare.sh && \
