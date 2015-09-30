@@ -2,5 +2,5 @@
 Eye.load('/etc/eye/*.rb')
 
 Eye.config do
-  logger '/var/log/eye.log'
+  logger '/var/log/eye/eye.log'
 end

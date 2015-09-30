@@ -1,5 +1,5 @@
 NAME = gitinsky/baseimage
-VERSION = 0.1.9
+VERSION = 0.1.10
 
 .PHONY: all build test tag_latest release ssh
 
