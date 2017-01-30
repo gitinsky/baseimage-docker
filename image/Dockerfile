@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Git In Sky <support@gitinsky.com>
 
 ENV HOME /root
