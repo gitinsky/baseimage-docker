@@ -4,6 +4,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 source /etc/profile.d/rvm.sh
 apt-get -y install git libyaml-0-2 libyaml-dev
 rvm install ruby-2.3
+gem install sigar -- --with-cppflags="-fgnu89-inline"
 cd /root && git clone https://github.com/kostya/eye.git
 cd /root/eye && gem build eye.gemspec && bash -c "gem install eye-*.gem"
 cp /build/rc.local /etc/rc.local
